@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.display ="none";
+}
+function myFunction1() {
+  document.getElementById("demo").style.display ="block";
+}
+
+	function myFunction2(){
+		document.getElementById("demo1").style.fontSize ="50px";
+	}
+
+
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+
+<p id="demo">A Paragraph</p>
+<p id="demo1">car is super</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<button type="button" onclick="myFunction1()">Try it</button>
+<button type="button" onclick="myFunction2()">try it</button>
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:200px">
+
+<button onclick="document.getElementById('myImage').src='image_processing20220204-30382-1xi0cz.gif'">Turn off the light</button>
+
+<button type="button" onclick="window.alert('my name is umar')">Try it</button>
+
+<button onclick="window.print()">Print this page</button>
+
+
+
+</body>
+</html>
